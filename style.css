@@ -1,0 +1,13 @@
+:root {
+    --background-color: #8A0F1F;
+    --text-color: #F5EA1D
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.50rem;
+    line-height: 1.2;
+    color: var(--text-color);
+    background-color: var(--background-color);
+
+}
