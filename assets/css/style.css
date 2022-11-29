@@ -80,17 +80,7 @@ nav a:hover {
     font-weight: bolder;
 }
 
-/* Image principal */
-
-.main-image {
-    margin-bottom: 20px;
-}
-
-.main-image {
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-}
+/* Subtitle */
 
 #coolsubtitlehere {
     font-weight: bolder;
@@ -123,4 +113,44 @@ main .flex {
     margin: 15px;
 }
 
+/* Style of Recent-photo */
+
+.recent-photo {
+    background-color: var(--hightlight2);
+    height: 300px;
+    width: 300px;
+    margin: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 3px 3px var(--theme);
+}
+
+.detail {
+    height: 300px;
+    width: 50%;
+    line-height: 30px;
+    color: var(--theme);
+    margin: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Portfolio section */
+
+#portfolio-flex {
+    max-width: 72%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.portfolio-item {
+    width: 48%;
+    background-color: var(--hightlight1);
+    margin: 10px;
+    padding: 10px;
+}
+
+.portfolio-major {
+    width: 96%;
+}
 
