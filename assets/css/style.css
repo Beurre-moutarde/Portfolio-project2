@@ -1,1 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+}
+
+:root {
+    --theme: rgb(55, 50, 50);
+    --hightlight1: darkblue;
+    --hightlight2: rgb(20, 150, 225)
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+/* Header */
+
+.header {
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--theme);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header h1 {
+    display: inline-block;
+    background-color: var(--hightlight2);
+    font-size: 52px;
+    letter-spacing: 1.5;
+    width: 370px;
+    position: relative; top: 5; right: 17;
+}
+
+.header h1 .Chris {
+    position: relative; left: 75;
+}
+
+h1::after {
+    color: var(--theme);
+    position: relative;
+    left: 75;
+    content: "Lebreton"
+}
+
+/* Navigation Bar */
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 90px;
+    position: relative; top: 20px; right: 40px;
+    border-bottom: 2px solid var(--hightlight1);
+    position: relative;
+}
+
+nav a:hover {
+    color: var(--hightlight2);
+    font-weight: bolder;
+}
+
+/* Image principal */
+
+.main-image {
+    margin-bottom: 20px;
+}
+
+.main-image {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#coolsubtitlehere {
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute; top: 150px; right:10px;
+    letter-spacing: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: var(--hightlight1);
+}
+
+
 
