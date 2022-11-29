@@ -25,7 +25,7 @@ p {
     color: black;
 }
 
-/* Header */
+/* Header styling */
 
 .header {
     padding: 20px;
@@ -56,7 +56,7 @@ h1::after {
     content: "Lebreton"
 }
 
-/* Navigation Bar */
+/* Navigation Bar styling */
 
 .header nav {
     padding-top: 15px;
@@ -80,7 +80,7 @@ nav a:hover {
     font-weight: bolder;
 }
 
-/* Subtitle */
+/* Subtitle styling*/
 
 #coolsubtitlehere {
     font-weight: bolder;
@@ -92,7 +92,7 @@ nav a:hover {
     background-color: var(--hightlight1);
 }
 
-/* Main section */
+/* Main section styling */
 
 main .flex {
     display: flex;
@@ -113,7 +113,7 @@ main .flex {
     margin: 15px;
 }
 
-/* Style of Recent-photo */
+/* Recent-photo styling */
 
 .recent-photo {
     background-color: var(--hightlight2);
@@ -133,7 +133,7 @@ main .flex {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Portfolio section */
+/* Portfolio styling */
 
 #portfolio-flex {
     max-width: 72%;
@@ -154,3 +154,45 @@ main .flex {
     width: 96%;
 }
 
+/* Contact styling */
+
+#flex-contact ul li {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    #coolsubtitlehere {
+        text-align: center;
+    }
+
+    .sidenav {
+        border-right: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header nav ul {
+        text-align: center;
+        line-height: 2;
+    }
+
+    .detail {
+        width: auto;
+        height: auto;
+    }
+
+    .portfolio-item {
+        width: 85%;
+        margin: 25px 25px;
+    }
+
+    #portfolio-flex {
+        max-width: none;
+    }
+}
