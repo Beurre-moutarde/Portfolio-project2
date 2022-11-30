@@ -12,6 +12,5 @@ Select the navigation link at the top of the page (About Me, Portfolio, Contacts
 
 Beurre-moutarde (https://github.com/Beurre-moutarde/Beurre-moutarde)
 
-<img width="1440" alt="Screenshot of my first Portfolio try" src="/Users/christopher/Desktop/Project2/Portfolio-project2/assets/images/Screen Shot 2022-11-30 at 10.02.49 pm.png>
 
 #### Licence
