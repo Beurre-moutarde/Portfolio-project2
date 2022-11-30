@@ -98,6 +98,7 @@ main .flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .sidenav {
@@ -156,6 +157,15 @@ main .flex {
 
 /* Contact styling */
 
+.footer {
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--theme);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 #flex-contact ul li {
     max-width: 100%;
     display: flex;
@@ -163,6 +173,8 @@ main .flex {
     flex-wrap: wrap;
     margin-top: 10px;
     margin-left: 35px;
+    display: inline-block;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 600px) {
