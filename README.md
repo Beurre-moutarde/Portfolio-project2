@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my first portfolio work for Moonash Coding Bootcamp. Visit hhttps://beurre-moutarde.github.io/Portfolio-project2/ to acces My First Portfolio try webpage.
+This is my first portfolio work for Moonash Coding Bootcamp. Visit https://beurre-moutarde.github.io/Portfolio-project2/ to acces My First Portfolio try webpage.
 
 ### Usage
 
